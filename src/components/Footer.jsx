@@ -2,13 +2,9 @@ import React from 'react';
 
 const Footer = () => {
 
-    const getFullYear = () => {
-        const year = new Date().getFullYear();
-    }
-
     return (
         <div className='footer'>
-            <p>{getFullYear} © Copyright</p>
+            <p>{new Date().getFullYear()} © Copyright</p>
         </div>
     );
 };
